@@ -1,0 +1,11 @@
+.chracters-container {
+	margin: 15px;
+	padding: 15px;
+	width: 250px;
+}
+
+.chractersList__eachChar {
+	display: inline-block;
+	max-width: 500px;
+	background-color: #e6f7ca;
+}
