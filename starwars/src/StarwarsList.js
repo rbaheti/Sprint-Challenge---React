@@ -17,9 +17,9 @@ export const StarwarsList = (props) => {
 						<div> {starwarsChar.films.map((film) => {
 							return (
 								<div><a href="{film}">Film</a></div>
-
 							);
-						})} </div>
+						})} 
+						</div>
 					</div>
 				);
 			})}
