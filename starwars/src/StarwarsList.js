@@ -14,9 +14,9 @@ export const StarwarsList = (props) => {
 						<p>Hair Color: {starwarsChar.hair_color}</p>
 						<a href="{starwarsChar.homeworld}">Homeworld: {starwarsChar.homeworld}</a>
 						<p>Films:</p>
-						<div> {starwarsChar.films.map((film) => {
+						<div> {starwarsChar.films.map((film, index) => {
 							return (
-								<div><a href="{film}">Film</a></div>
+								<div><a href={film}>Film {index + 1}</a></div>
 							);
 						})} 
 						</div>
